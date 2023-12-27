@@ -17,3 +17,14 @@ const loadPrice = async () => {
 
 loadPrice();
 </script>
+
+<style lang="scss" scoped>
+.b {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  .btn {
+    max-width: 200px;
+  }
+}
+</style>
